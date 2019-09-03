@@ -1,0 +1,84 @@
+* {
+    margin:  2em;
+}
+
+body {
+    box-shadow: 1px 1px 2px #aaa;
+    color: #9e006e;
+}
+
+[main-head] {
+    text-align: center;
+}
+
+[header] {
+    padding-top: 1em; 
+    font-family: 'Almendra', serif;
+}
+
+[tag] {
+   margin: 20px;
+}
+
+.texts {
+    margin-left: 3em;
+    padding: 10px;
+}
+
+[info] {
+  display: flex; 
+  margin: 20px;
+}
+
+[right] {
+    margin-left: 15em;
+}
+
+.info-work-date {
+    margin: 5em;
+}
+
+[hobby] {
+    display: inline-block;
+}
+
+[src] {
+    align-self: auto;
+   border-radius: 10px;
+}
+
+/* media query */
+@media only screen and (max-width: 720px) {
+    * {
+        margin:  0.5em;
+    }
+    
+    [tag] {
+       margin: 20px;
+    }
+    
+    .texts {
+        margin-left: 2em;
+        text-align: justify;
+        padding: 10px;
+    }
+    
+    [info] {
+      display: flex; 
+    }
+    
+    [right] {
+        margin-left: 0.5em;
+    }
+    
+    .info-text {
+        margin: 2em 0 !important;
+    }
+    
+    [src] {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        border-radius: 10px;
+    }
+}
