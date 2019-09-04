@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>CURRICULUM VITAE</title>
-    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="icon" type="image/x-icon" href="https://res.cloudinary.com/dvbwpicno/image/upload/v1567003668/blqvrjwn3b7z9mempuzp.png" />
     <!-- google font -->
     <link href="https://fonts.googleapis.com/css?family=Almendra&display=swap" rel="stylesheet" />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 
 <body>
@@ -181,8 +184,34 @@
     </section>
     <br />
     <hr />
+    <!-- contact -->
+    <section contact>
+       <div >
+           <h1>CONTACT ME</h1>
+           <form action="">
+               <p id="icon"><i class="far fa-envelope"></i></p>    
+               <!-- name -->
+               <input type="text" placeholder="name" class="input" id="name"><br>
+               <p id="name-message" class="message">name should be more than 4 letters</p>
+               <!-- email -->
+               <input type="email" placeholder="example@gmail.com" class="input" id="email"><br>
+               <p id="email-message" class="message"> should be an email</p>
+               <!-- title -->
+               <input type="text" placeholder="title" class="input" id="title"><br>
+               <p id="title-message" class="message">please add a title</p>
+               <!-- message -->
+               <textarea cols="30" rows="10" placeholder="Your message" class="input" id="textarea"></textarea><br>
+               <p id="text-message" class="message">message body should contain more than 20 characters</p>
+               <button class="input" id="submit">Submit</button>
+           </form>
+       </div>
+    </section>
+    <br />
+    <hr />
     <!--    image-->
     <img src="https://res.cloudinary.com/dvbwpicno/image/upload/v1566490977/a2mccwbm3cf0fm9rfdeu.png" width="500" />
+    <!-- script -->
+    <script src="./assets/js/index.js"></script>
 </body>
 
 </html>
