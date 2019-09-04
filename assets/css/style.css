@@ -1,10 +1,11 @@
 * {
-    margin:  2em;
+    padding: 0;
 }
 
 body {
     box-shadow: 1px 1px 2px #aaa;
     color: #9e006e;
+    padding: 2em;
 }
 
 [main-head] {
@@ -47,12 +48,39 @@ body {
    border-radius: 10px;
 }
 
+/* contact */
+[contact] {
+    text-align: center;
+}
+
+.input {
+    border: 2px solid #9e006e;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0.5em;
+}
+
+#submit {
+    background-color: #9e006e;
+    color: #ffffff;
+}
+
+.message{
+    display: none;
+    color: red;
+}
+
+#icon{
+     display: none;
+     font-size: 3em;
+     color: #01f802;
+     transition-delay: 3s;
+}
+
+
 /* media query */
 @media only screen and (max-width: 720px) {
-    * {
-        margin:  0.5em;
-    }
-    
+
     [tag] {
        margin: 20px;
     }
@@ -80,5 +108,10 @@ body {
         padding: 0;
         width: 100%;
         border-radius: 10px;
+    }
+
+    /* contact */
+    #textarea {
+        margin: 0.5em 0;
     }
 }
